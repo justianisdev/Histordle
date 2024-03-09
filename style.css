@@ -1,0 +1,131 @@
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: rgb(24, 24, 24);
+
+}
+
+hr {
+ width: 800px;
+}
+
+
+#logo {
+ font-size: 25px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ color: white;
+}
+
+#container {
+ background-color: rgb(24, 24, 24);
+ width: 100%;
+ height: 200px;
+display: flex;
+position:fixed;
+top: 79%;
+border-style: solid;
+border-bottom: unset;
+border-left: unset;
+border-right: unset;
+border-width: 2px;
+border-color: coral;
+
+}
+
+
+#textbox {
+ width: 600px;
+ height: 50px;
+border-width: 3px;
+border-style: solid;
+border-color: coral;
+background-color: rgb(24, 24, 24);
+}
+
+#submit {
+width: 60px;
+height: 55px;
+position: relative;
+bottom: 5px;
+color: white;
+background-color:rgb(255, 159, 80);
+border: unset;
+}
+
+#submit:hover {
+opacity: 0.8;
+cursor: pointer;
+}
+
+#submit:active {
+ opacity: 0.4;
+}
+
+#innerinput {
+margin: auto;
+
+}
+
+#questions {
+display: flex;
+flex-direction: column;
+gap: 20px; 
+align-items: center;
+
+
+}
+
+.qinf {
+
+ background-color: aqua;
+width: 700px;
+height: 40px;
+border-style: solid;
+border-width: 1px;
+border-color: coral;
+background-color: unset;
+
+}
+
+#def {
+ color: white;
+ font-size: 30px;
+}
+
+#answer {
+ color:green
+}
+
+#wronganswer {
+ color:red
+}
+
+.qinf {
+font-weight: bold;
+ color: white;
+font-size: x-large;
+}
+
+#about {
+border: transparent;
+ width: 90px;
+ height: 57px;
+ position: relative;
+ bottom: 5px;
+color:white;
+background-color: rgb(255, 103, 80);
+
+}
+
+#about:hover {
+
+ opacity: 0.8;
+ cursor: pointer;
+}
+
+
+
+
+
