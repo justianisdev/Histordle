@@ -154,10 +154,35 @@ hr {
 .qinf {
 width: 300px;
 height: 50px;
+font-size: 20px;
+overflow-x: hidden;
 }
 
 #textbox {
  width: 300px;
+}
+
+#wronganswer {
+ font-size: 20px;
+}
+}
+
+
+@media (max-width: 400px) {
+
+#textbox {
+ width: 150px;
+}
+
+
+#def {
+ font-size: 25px;
+}
+
+.qinf {
+ width: 235px;
+ font-size: 18px;
+ overflow-x: hidden;
 }
 
 
