@@ -44,6 +44,7 @@ border-width: 3px;
 border-style: solid;
 border-color: coral;
 background-color: rgb(24, 24, 24);
+font-size: 30px;
 }
 
 #submit {
@@ -132,6 +133,8 @@ background-color: rgb(255, 103, 80);
  color: white;
 }
 
+
+
 /* phone views */
 
 @media (max-width: 700px) {
@@ -165,13 +168,23 @@ overflow-x: hidden;
 #wronganswer {
  font-size: 20px;
 }
+#textbox {
+ font-size: 30px;
+}
+
+#submit {
+ height: 45px;
+}
+
 }
 
 
 @media (max-width: 400px) {
 
 #textbox {
- width: 150px;
+ width: 216px;
+height: 40px;
+font-size: 23px;
 }
 
 
@@ -184,6 +197,11 @@ overflow-x: hidden;
  height: 40px;
  font-size: 18px;
  overflow-x: hidden;
+}
+
+#submit {
+margin-top: 15px;
+width: 100px;
 }
 
 
