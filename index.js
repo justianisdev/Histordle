@@ -17,10 +17,15 @@ answertype = document.getElementById("textbox")
 
 
 document.getElementById("submit").onclick = function(){
- if (answertype.value.indexOf("justinian") >-1) elseif (answertype.value.indexOf("Justinian") {
+ if (answertype.value.indexOf("justinian") >-1)  {
   document.getElementById("submit"). disabled = true;
   document.getElementById("textbox"). disabled = true;
   document.getElementById("answer").textContent = "You are correct";} 
+  elseif (answertype.value.indexOf("Justinian") >-1){
+     document.getElementById("submit"). disabled = true;
+  document.getElementById("textbox"). disabled = true;
+  document.getElementById("answer").textContent = "You are correct";} 
+
   else {
    count = count + 1
    console.log(count)
