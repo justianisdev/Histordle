@@ -21,11 +21,7 @@ document.getElementById("submit").onclick = function(){
   document.getElementById("submit"). disabled = true;
   document.getElementById("textbox"). disabled = true;
   document.getElementById("answer").textContent = "You are correct";} 
-  elseif (answertype.value.indexOf("Justinian") >-1){
-     document.getElementById("submit"). disabled = true;
-  document.getElementById("textbox"). disabled = true;
-  document.getElementById("answer").textContent = "You are correct";} 
-
+ 
   else {
    count = count + 1
    console.log(count)
