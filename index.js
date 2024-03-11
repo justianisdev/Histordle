@@ -1,3 +1,5 @@
+
+
 let qone = document.getElementById("q1")  
 let qtwo = document.getElementById("q2")  
 let qthree = document.getElementById("q3")
@@ -15,8 +17,7 @@ answertype = document.getElementById("textbox")
 
 
 document.getElementById("submit").onclick = function(){
-
- if (answertype.value.indexOf("holy roman empire") >-1) { 
+ if (answertype.value.indexOf("justinian") >-1) {
   document.getElementById("submit"). disabled = true;
   document.getElementById("textbox"). disabled = true;
   document.getElementById("answer").textContent = "You are correct";} 
@@ -56,7 +57,7 @@ document.getElementById("submit").onclick = function(){
 
 
 if (count == 5) {
- wrong.textContent = 'The asnwer is Holy Roman Empire' 
+ wrong.textContent = 'The asnwer is Justinian' 
  document.getElementById("submit"). disabled = true;
  document.getElementById("textbox"). disabled = true;
 }
@@ -68,8 +69,5 @@ if (count == 5) {
   // display questions
 
 
-  document.getElementById("about").onclick = function(){
-  console.log("d")
-   document.getElementById("popup").classList.toggle = true
-  }
+
 
