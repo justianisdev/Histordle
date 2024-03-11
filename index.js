@@ -17,7 +17,7 @@ answertype = document.getElementById("textbox")
 
 
 document.getElementById("submit").onclick = function(){
- if (answertype.value.indexOf("justinian") >-1) {
+ if (answertype.value.indexOf("justinian") >-1) elseif (answertype.value.indexOf("Justinian") {
   document.getElementById("submit"). disabled = true;
   document.getElementById("textbox"). disabled = true;
   document.getElementById("answer").textContent = "You are correct";} 
