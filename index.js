@@ -17,10 +17,11 @@ answertype = document.getElementById("textbox")
 
 
 document.getElementById("submit").onclick = function(){
- if (answertype.value.indexOf("justinian") >-1) {
+ if (answertype.value.indexOf("atlantic slave trade") >-1)  {
   document.getElementById("submit"). disabled = true;
   document.getElementById("textbox"). disabled = true;
   document.getElementById("answer").textContent = "You are correct";} 
+ 
   else {
    count = count + 1
    console.log(count)
@@ -57,7 +58,7 @@ document.getElementById("submit").onclick = function(){
 
 
 if (count == 5) {
- wrong.textContent = 'The asnwer is Justinian' 
+ wrong.textContent = 'The asnwer is Atlantic Slave Trade' 
  document.getElementById("submit"). disabled = true;
  document.getElementById("textbox"). disabled = true;
 }
