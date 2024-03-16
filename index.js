@@ -10,6 +10,7 @@ let infobox = document.getElementById("textbox").value;
 
 
 
+
 let count = 0
 let wrong = document.getElementById("wronganswer")
 answertype = document.getElementById("textbox")
@@ -25,7 +26,11 @@ document.getElementById("submit").onclick = function(){
   else {
    count = count + 1
    console.log(count)
+
+
   }
+
+  
 
   if (count == 1) {
    qone.textContent = document.getElementById("textbox").value;
@@ -49,7 +54,7 @@ document.getElementById("submit").onclick = function(){
 
 
 
-
+answertype.value = ""
 
 
 

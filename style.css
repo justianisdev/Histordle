@@ -132,7 +132,35 @@ background-color: rgb(255, 103, 80);
 
  color: white;
 }
+/* pop */
+#containererror {
+ display: flex;
+ justify-content: center;
+ display: none;
+}
 
+#errortext {
+ background-color: rgb(24, 24, 24);
+ color: white;
+ border-width: 3px;
+ border-color: coral;
+ border-style: solid;
+ position: absolute;
+ top: 70px;
+ width: 300px;
+
+}
+
+#otherg {
+color: white;
+text-decoration:none;
+}
+
+#otherg:hover {
+color: beige;
+font-size: 45px;
+text-decoration:underline;
+}
 
 
 /* phone views */
