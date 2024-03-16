@@ -2,7 +2,7 @@ html {
  --high: white;
  --background: rgb(24, 24, 24);
  --defualt: 30px;
- --webcolor: coral;
+ --webcolor: rgb(80, 255, 118);
 }
 
  /* CSS START OPEN CSS START OPEN CSS START OPEN */
@@ -90,7 +90,7 @@ body {
  position: relative;
  bottom: 5px;
  color: white;
- background-color:rgb(255, 159, 80);
+ background-color:rgb(80, 255, 124);
  border: unset;
  }
  
