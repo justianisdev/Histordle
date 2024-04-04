@@ -12,7 +12,7 @@ let inputbox6 = document.querySelector('#box6')
 let submit = document.querySelector('#subbox');
 let textbox = document.querySelector('#textbox');
 let change = document.querySelector('#change')
-let answer = "genghis khan"
+let answer = "luddites"
 let count = 0
 const jsConfetti = new JSConfetti()
 
@@ -36,7 +36,7 @@ function correct(){
  });
 }
 function wrong(){
- change.textContent = "You Lost, Answer: Genghis Khan"
+ change.textContent = "You Lost, Answer: Luddites"
  change.style.color = "red"
  textbox.disabled = true
  submit.disabled = true
@@ -51,15 +51,19 @@ if (count == 2){
 }
 if (count == 3){
  inputbox3.textContent = textbox.value
+  window.alert('Many of these people where often killed for protesting')
 }
 if (count == 4){
  inputbox4.textContent = textbox.value
+  window.alert('effective moment (engish movement)')
 }
 if (count == 5){
  inputbox5.textContent = textbox.value
+  window.alert('anti-technological advancements (happend during 17th century)')
 }
 if (count == 6){
  inputbox6.textContent = textbox.value
+ 
  wrong()
 }
 textbox.value = ""
