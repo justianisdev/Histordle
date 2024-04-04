@@ -1,0 +1,154 @@
+html {
+ --high: white;
+ --background: rgb(24, 24, 24);
+ --defualt: 30px;
+ --webcolor: rgb(86, 80, 255);
+}
+
+ /* CSS START OPEN CSS START OPEN CSS START OPEN */
+body {
+
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ background-color: var(--background)
+ }
+ 
+ hr {
+  width: 800px;
+ }
+ 
+ 
+ #logo {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--high);
+ }
+ /* */
+
+#question {
+ color: white;
+ font-size: 25px;
+}
+
+
+
+#container {
+ width: 100%;
+ height: 200px;
+position:fixed;
+top: 75%;
+border-style: solid;
+border-bottom: unset;
+border-left: unset;
+border-right: unset;
+border-width: 2px;
+border-color: var(--webcolor);
+}
+
+
+.bothbox {
+border-color: transparent;
+background-color: transparent;
+}
+#textbox {
+ width: 600px;
+ height: 50px;
+ border: solid;
+border-color: var(--webcolor);
+color: white;
+}
+#subbox {
+ height:55px;
+ background-color: var(--webcolor);
+}
+#subbox:hover {
+opacity: 0.7;
+cursor: pointer;
+}
+#subbox:active {
+ opacity: 0.4;
+ }
+
+#container3 {
+width: 100%;
+height: 200px;
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+
+ .qbox {
+ margin-top: 70px;
+border-style: solid;
+border-color: var(--webcolor);
+color: white;
+font-size: 30px;
+ width:250px;
+ height: 50px;
+ }
+
+ /* pop */
+
+#container5 {
+ display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 99%;
+height: 99vh;
+z-index: 4;
+
+}
+
+#pop {
+opacity: 0.5;
+background-color:black;
+width: 100%;
+height: 100%;
+}
+
+#inpop {
+ background-color: gray;
+ position: absolute;
+ z-index: 5;
+ height: 700px;
+ width: 600px;
+ padding: 20px;
+}
+
+#main3 {
+color:white
+}
+
+.extra {
+text-decoration: none;
+display: block;
+}
+
+#close:hover {
+opacity: 0.5;
+cursor: pointer;
+}
+
+#clicker {
+ display: inline-block;
+ position: relative;
+ right:300px;
+ background-color: coral;
+ color:white;
+border-radius: 50px;
+width: 25px;
+height: 25px;
+cursor: pointer;
+}
+
+#clicker:hover {
+ opacity: 0.5;
+}
+
+#clicker:after {
+ opacity: 0.2;
+}

@@ -6,8 +6,15 @@ let bfive = document.getElementById("b5")
 let bsix = document.getElementById("b6")
 let answertype = document.getElementById('textbox')
 let count = 0
-let answer = 1206
+let answer = 1962
 let threshold = 200
+//
+
+let clicker = document.querySelector('#clicker')
+let popup = document.querySelector('#container5')
+let exit = document.querySelector('#close')
+popup.style.display = "none"
+//
 document.getElementById("submit").onclick = function(){
 if (answertype.value < 200){
   window.alert('Too Small')
@@ -40,7 +47,7 @@ function right(){
  document.getElementById('answer').textContent = "You Are Correct"
  }
  function wrong(){
-   document.getElementById('wronganswer').textContent = "The Year Is: 1206"
+   document.getElementById('wronganswer').textContent = "The Year Is: 1962"
  }
 
 ////////////////////////////////////////////////////////
@@ -49,15 +56,19 @@ if (count == 1){
 }
 if (count == 2){
  btwo.textContent = document.getElementById("textbox").value;
+ window.alert('between 1800-2000')
 }
 if (count == 3){
  bthree.textContent = document.getElementById("textbox").value;
+ window.alert('between 1900-2000')
 }
 if (count == 4){
  bfour.textContent = document.getElementById("textbox").value;
+ window.alert('after 1900')
 }
 if (count == 5){
  bfive.textContent = document.getElementById("textbox").value;
+ window.alert('mid late 1900s')
 }
 if (count == 6){
  bsix.textContent = document.getElementById("textbox").value;
@@ -81,3 +92,14 @@ console.log(count)
 
 
 
+
+
+
+
+exit.onclick = function (){
+  popup.style.display = "none"
+}
+
+clicker.onclick = function (){
+  popup.style.display = "flex"
+}
