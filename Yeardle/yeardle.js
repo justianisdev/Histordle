@@ -6,7 +6,7 @@ let bfive = document.getElementById("b5")
 let bsix = document.getElementById("b6")
 let answertype = document.getElementById('textbox')
 let count = 0
-let answer = 1962
+let answer = 1760
 let threshold = 200
 //
 
@@ -47,7 +47,7 @@ function right(){
  document.getElementById('answer').textContent = "You Are Correct"
  }
  function wrong(){
-   document.getElementById('wronganswer').textContent = "The Year Is: 1962"
+   document.getElementById('wronganswer').textContent = "The Year Is: 1760"
  }
 
 ////////////////////////////////////////////////////////
@@ -56,19 +56,19 @@ if (count == 1){
 }
 if (count == 2){
  btwo.textContent = document.getElementById("textbox").value;
- window.alert('between 1800-2000')
+ window.alert('between 1400-2000')
 }
 if (count == 3){
  bthree.textContent = document.getElementById("textbox").value;
- window.alert('between 1900-2000')
+ window.alert('between 1600-1800')
 }
 if (count == 4){
  bfour.textContent = document.getElementById("textbox").value;
- window.alert('after 1900')
+ window.alert('after 1700s')
 }
 if (count == 5){
  bfive.textContent = document.getElementById("textbox").value;
- window.alert('mid late 1900s')
+ window.alert('mid late 1700s')
 }
 if (count == 6){
  bsix.textContent = document.getElementById("textbox").value;
