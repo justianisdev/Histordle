@@ -6,7 +6,7 @@ let bfive = document.getElementById("b5")
 let bsix = document.getElementById("b6")
 let answertype = document.getElementById('textbox')
 let count = 0
-let answer = 1760
+let answer = 1732
 let threshold = 200
 //
 
