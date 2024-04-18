@@ -47,7 +47,7 @@ function right(){
  document.getElementById('answer').textContent = "You Are Correct"
  }
  function wrong(){
-   document.getElementById('wronganswer').textContent = "The Year Is: 1760"
+   document.getElementById('wronganswer').textContent = "The Year Is: 1732"
  }
 
 ////////////////////////////////////////////////////////
@@ -68,7 +68,7 @@ if (count == 4){
 }
 if (count == 5){
  bfive.textContent = document.getElementById("textbox").value;
- window.alert('mid late 1700s')
+ window.alert('mid early 1700s')
 }
 if (count == 6){
  bsix.textContent = document.getElementById("textbox").value;
