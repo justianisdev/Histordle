@@ -6,7 +6,7 @@ let bfive = document.getElementById("b5")
 let bsix = document.getElementById("b6")
 let answertype = document.getElementById('textbox')
 let count = 0
-let answer = 1732
+let answer = 1919
 let threshold = 200
 //
 
@@ -47,7 +47,7 @@ function right(){
  document.getElementById('answer').textContent = "You Are Correct"
  }
  function wrong(){
-   document.getElementById('wronganswer').textContent = "The Year Is: 1732"
+   document.getElementById('wronganswer').textContent = "The Year Is: 1919"
  }
 
 ////////////////////////////////////////////////////////
