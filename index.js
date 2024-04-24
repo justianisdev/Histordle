@@ -5,7 +5,7 @@ let qfour = document.getElementById("q4")
 let qfive = document.getElementById("q5")
 let qsix = document.getElementById("q6")
 let infobox = document.getElementById("textbox").value;
-let answer = "henry ford"
+let answer = "valdimir lenin"
 
 //
 
@@ -67,7 +67,7 @@ answertype.value = ""
 
 
 if (count == 5) {
- wrong.textContent = 'The asnwer is Henry Ford'
+ wrong.textContent = 'The asnwer is Valdimir Lenin'
  document.getElementById("submit"). disabled = true;
  document.getElementById("textbox"). disabled = true;
 }
