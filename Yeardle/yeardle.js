@@ -60,15 +60,15 @@ if (count == 2){
 }
 if (count == 3){
  bthree.textContent = document.getElementById("textbox").value;
- window.alert('between 1600-1800')
+ window.alert('between 1700-2000')
 }
 if (count == 4){
  bfour.textContent = document.getElementById("textbox").value;
- window.alert('after 1700s')
+ window.alert('after 1900s')
 }
 if (count == 5){
  bfive.textContent = document.getElementById("textbox").value;
- window.alert('mid early 1700s')
+ window.alert('early 1900s')
 }
 if (count == 6){
  bsix.textContent = document.getElementById("textbox").value;
