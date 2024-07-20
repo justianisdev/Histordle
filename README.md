@@ -1,3 +1,9 @@
+
+<h1>READ THIS BEFORE PROCCEDING</h1>
+<h3>hi uhh, so this is really old, plus the code and metheods used are chosen out of lack of experience with javascript. Now that i progressed very far i can say i am proud of the journey and to anyone lurking BEWARE of this mess</h3>😁
+<h4>this used to be hosted on histordle.online but i no longer wish to maintain that domain.</h4>
+
+
 <h1>Histordle</h1>
 <h3>A Daily History Guessing Game</h3>
 
